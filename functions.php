@@ -37,3 +37,16 @@ function mbe_wp_head(){
     .'}</style>'
     .PHP_EOL;
 }
+
+add_action( 'widgets_init', 'mat_widget_areas' );
+function mat_widget_areas() {
+    register_sidebar( array(
+        'name' => 'Theme Sidebar',
+        'id' => 'mat-sidebar',
+        'description' => 'The main sidebar shown on the right in our theme',
+        'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+    ));
+}

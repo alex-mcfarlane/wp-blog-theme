@@ -9,8 +9,6 @@
 	
 	<?php echo '<body class="'.join(' ', get_body_class()).'">'.PHP_EOL; ?>
 		
-
-		
 		<!-- Navigation -->
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">

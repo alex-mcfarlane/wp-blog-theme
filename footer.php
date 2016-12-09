@@ -1,4 +1,7 @@
+			<?php get_sidebar(); ?>
+		</div> <!-- row -->
 	</div> <!-- container -->
+	
 	<footer>
 		<div class="container">
 			<div class="row">
